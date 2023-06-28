@@ -169,6 +169,10 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
                                   Radius.circular(35.0),
                                 ),
                               ),
+                              hintText: 'User name',
+                              hintStyle: TextStyle(
+                                  fontSize: 14, color: Palette.textColor1),
+                              contentPadding: EdgeInsets.all(10),
                             ),
                           ),
                         ],
